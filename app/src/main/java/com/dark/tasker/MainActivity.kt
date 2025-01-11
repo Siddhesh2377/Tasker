@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.dark.tasker.databinding.NodesBinding
-import com.dark.tasker.fragment.HomeFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,8 +18,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
-        supportFragmentManager.beginTransaction().add(R.id.container, HomeFragment()).commit()
 
     }
 }
