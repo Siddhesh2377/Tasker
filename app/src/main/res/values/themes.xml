@@ -1,8 +1,19 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.Tasker" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.Tasker" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/Accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background colors -->
+        <item name="colorSurface">@color/PrimaryLight</item>
+        <item name="colorOnSurface">@color/TextPrimary</item>
+
+        <!-- Ripple effect for buttons and cards -->
+        <item name="rippleColor">@color/PrimaryLight</item>
     </style>
 
     <style name="Theme.Tasker" parent="Base.Theme.Tasker" />

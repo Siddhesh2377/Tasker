@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Primary">#292929</color>
+    <color name="PrimaryLight">#3E3E3E</color>
+    <color name="Accent">#32A6FF</color>
+    <color name="Error">#B00020</color>
+    <color name="TextPrimary">#E0E0E0</color>
+    <color name="TextSecondary">#B0B0B0</color>
 </resources>
