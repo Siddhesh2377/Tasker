@@ -10,10 +10,10 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/inconsolata_medium"
         android:layout_centerInParent="true"
-        app:icon="@drawable/start"
-        android:text="@string/init" />
+        android:fontFamily="@font/inconsolata_medium"
+        android:text="@string/init"
+        app:icon="@drawable/start" />
 
 
 </RelativeLayout>
